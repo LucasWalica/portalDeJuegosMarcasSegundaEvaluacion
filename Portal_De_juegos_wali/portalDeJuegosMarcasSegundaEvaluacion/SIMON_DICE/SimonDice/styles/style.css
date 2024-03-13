@@ -1,0 +1,143 @@
+@font-face {
+    font-family: robot;
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+body{
+    background-image: url('../assets/fantasy-05e34f7bfyhne5vg.jpg')!important;
+    background-repeat: no-repeat;
+    font-family: robot!important;
+}
+.container{
+    padding: 20px;
+    border-radius: 10px;
+}
+.bar, .cont{
+    margin: 1%;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.bar {
+    background: linear-gradient(rgb(71, 66, 66), rgb(56, 55, 55));
+}
+
+h1{
+    text-align: center;
+}
+
+
+#buttonContainer{
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+}
+#butt{
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(pink, aquamarine);
+    border: 2px solid magenta;
+    color: black;
+    text-shadow: 1px 2px 2px grey;
+}
+#butt:hover{
+    transition: 0.3s;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background: linear-gradient(magenta, blue);
+}
+#butt:active{
+    transition: 0.2s;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: whitesmoke;
+    background: linear-gradient(red, violet);
+}
+
+
+#main{
+    background: rgb(24, 12, 12);
+    border-radius: 5px;
+}
+
+#simon{
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+#test{
+    display: grid;
+    justify-content:inline-block;
+}
+
+#Seleccionar{
+    display: inline-flex;
+    justify-content: center;
+    margin:20px;
+}
+
+
+
+
+#popUp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(black, grey);
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px grey;
+  }
+#popUp button{
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(pink, aquamarine);
+    border: 2px solid magenta;
+    color: black;
+    text-shadow: 1px 2px 2px grey;
+}
+#popUp button:hover{
+    transition: 0.3s;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background: linear-gradient(magenta, blue);
+}
+#popUp button:active{
+    transition: 0.2s;
+    color: whitesmoke;
+    background: linear-gradient(red, violet);
+}
+#language{
+    background: linear-gradient(rgb(71, 66, 66), rgb(56, 55, 55));
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#seleccionar-idioma{
+    background: linear-gradient(aquamarine, cyan);
+    border: 2px solid violet;
+    border-radius: 5px;
+}
+#home{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(aquamarine, cyan);
+}
+#home:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(violet, purple);
+    transition: 0.2s;
+}

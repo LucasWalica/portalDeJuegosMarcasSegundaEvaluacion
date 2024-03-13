@@ -1,0 +1,72 @@
+.start{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.start h2 {
+    color: rgb(95, 23, 23);
+    border: 2px solid brown;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px brown;
+    background: orangered;
+}
+
+.start h3{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.wine_lost{
+    border: 2px solid purple;
+    margin: 20px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(91, 9, 91), rgb(63, 11, 63));
+
+}
+.wine_lost h2{
+    color: white;
+    text-shadow: 2px 2px 2px violet;
+}
+.life_lost{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin: 20px;
+    background: linear-gradient(greenyellow, green);
+}
+.life_lost h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.negative_coins{
+    border: 2px solid silver;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(silver, rgb(139, 137, 137));
+}
+.positive_coins{
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid gold;
+    padding: 10px;
+    background: linear-gradient(gold, goldenrod);
+}
+
+
+#seleccionar-idioma{
+    width: 20%;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    background: linear-gradient(brown, orangered);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 20px;
+    width: 135px;
+}
+#seleccionar-idioma option{
+    color: black;
+    text-shadow: 2px 2px 2px orange;
+}

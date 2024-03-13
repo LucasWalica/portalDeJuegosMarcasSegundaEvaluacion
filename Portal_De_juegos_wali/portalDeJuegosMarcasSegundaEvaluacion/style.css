@@ -1,0 +1,39 @@
+html,body{
+    background: black!important;
+}
+.bar{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0px;
+    color: white;
+}
+.row h1{
+    text-align: center;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    background: black;
+}
+
+.gameCointainer{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 10px;
+    background: linear-gradient(greenyellow, green);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 20px;
+    width: 230px;
+    height: 320px;
+}
+a{
+    text-decoration: none!important;
+    margin: 20px;
+    border-radius: 10px;
+}
+a:hover{
+    background: linear-gradient(green, greenyellow);
+}

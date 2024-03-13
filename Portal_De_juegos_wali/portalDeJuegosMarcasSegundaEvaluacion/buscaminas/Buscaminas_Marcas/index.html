@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <center>
+                <a href="../../index.html" id="home">Volver a casa</a>
+            </center>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div id="ayuda">
+            <center>
+                <h2 id="title">Buscaminas</h2>
+                <hr>
+                <div id="containerHelp">
+                        <div id="minasRestantes"><h4>Minas restantes</h4><span id="minas_count"></span></div>
+                        <div id="lifes"><h4 id="lifesleft">Vidas restantes</h4><div id="vidasRestas"></div></div>
+                </div>
+                <br>
+                <div id="inputs">
+                    <div id="buttons">
+                        <h5>
+                            <h5 id="numMinas">
+                                Numero de minas 
+                            </h5>
+                            <input id="numMinas" type="number" step="10" min="10" max="80">
+                        </h5>
+                        <div id="Generate"><button onclick="cargar()" id="generate">Generate</button></div>
+                        <h5 id="derecho">Pulsa click derecho para detectar minas <br> y quitar las ya explotadas</h5>
+                        <h5 id="f5">Pulsa f5 para crear un nuevo tablero</h5>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <center>
+            <div class="grid">               
+            </div>
+        </center>  
+
+    </div>
+        
+</body>
+</html>           

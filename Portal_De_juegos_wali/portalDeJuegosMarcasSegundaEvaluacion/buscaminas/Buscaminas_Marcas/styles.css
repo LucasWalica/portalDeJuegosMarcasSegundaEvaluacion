@@ -1,0 +1,144 @@
+
+
+
+body{
+    background: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+#ayuda{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(grey, silver);
+}
+h2{
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px;
+    text-shadow: 2px 2px 2px grey;
+}
+#minasRestantes{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: greenyellow;
+    padding-bottom: 5px;
+}
+#lifes{
+    border: 2px solid green;
+    border-radius: 20px;
+    background: linear-gradient(greenyellow, yellow);
+    padding-bottom: 5px;
+}
+.grid{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto  auto auto auto auto auto ;
+    background: grey;
+    border-radius: 10px;
+}
+
+.block{
+    border: 2px solid blue;
+    border-radius: 8px;
+    height: 45px;
+    width: 45px;
+}
+.block:hover {
+    transition: 0.4s;
+    border-radius: 15px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.mina {
+    background: red!important;
+    background-color: green!important;
+}
+.noMina{
+    background-color: green!important;
+}
+
+#inputs {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(greenyellow, green);
+}
+#buttons{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    border: 2px solid brown;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    background: linear-gradient(brown, red);
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+button:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.4s;
+}
+
+input{
+    width: 50px;
+    margin: 2px;
+}
+
+.bandera {
+    background: url('./bander.png') no-repeat center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.explosion{
+    background: url('./Explosion (2).png');
+    animation: exp 0.9s steps(6);
+}
+.minaLimpiada{
+    background: linear-gradient(green, greenyellow);
+}
+@keyframes exp {
+    from{background-position: 0px;}
+    to{background-position: -270px;}
+}
+
+h5{
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(53, 83, 8), rgb(68, 22, 6));
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#containerHelp{
+    display: flex;
+    justify-content: flex;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(aquamarine, cyan);
+}
+#home:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(violet, purple);
+    transition: 0.2s;
+}

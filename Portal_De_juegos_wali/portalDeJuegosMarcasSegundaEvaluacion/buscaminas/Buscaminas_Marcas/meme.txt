@@ -1,0 +1,16 @@
+Buscaminas
+
+#title  Buscaminas
+#minasRestantes Minas restantes
+#lifesleft Vidas restantes
+#numMinas Numero de minas
+#generate Generar
+#derecho Pulsa click derecho para detectar minas <br> y quitar las ya explotadas
+#f5 Pulsa f5 para crear un nuevo tablero
+
+
+perdido 
+	<h1>Has perdido</h1><h2>Vuelve a generar un nuevo mapa</h2><h3>Si quieres jugar en el mismo mapa simplemente pulsa generate, si quieres cambiar pulsa f5 y pulsa generate pudiendo cambiar el numero de minas</h3>
+
+ganado 
+	<h1>Has ganado y limpiado todas las minas</h1><br><h2>Congratulaciones</h2><br><h2>Pulsa f5 y generate para volver a jugar</h2>

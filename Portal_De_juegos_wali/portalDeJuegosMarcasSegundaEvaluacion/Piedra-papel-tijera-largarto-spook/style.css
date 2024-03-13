@@ -1,0 +1,158 @@
+@font-face {
+    font-family: robot;
+    src: url(./assets/Roboto-Regular.ttf);
+}
+
+:root {
+    --01: #59b3ad;
+    --02: #1d895c;
+    --03: #2a5a36;
+    --04: #B4F071;
+    --05: #4f8884;
+}
+
+#body{
+    font-family: robot;
+    background: var(--03);
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    color: white!important;
+}
+
+h1{
+    border: 2px solid var(--04);
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(var(--05), var(--02));
+    border-radius: 20px;
+}
+
+.container {
+    background: linear-gradient(var(--02), var(--05));
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--05);
+    margin-bottom: 100px;
+}
+
+hr {
+    height: 10px;
+    padding: 20px;
+    background: black;
+    border-radius: 20px;
+}
+
+button{
+    border-radius: 20px;
+    border: 2px solid black;
+    background: var(--04);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    text-align: center;
+}
+button:hover {
+    background: var(--02);
+    border-radius: 20px;
+}
+
+#bot .col-2 {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(var(--02), var(--03));
+}
+
+
+#selector{
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(var(--05), var(--01));
+}
+
+#visual {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#puntos {
+    border: 2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(var(--03), var(--04));
+}
+h5{
+    text-shadow: 2px 2px 2px grey;
+    background: linear-gradient(var(--03), var(--04));
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.casilla {
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+}
+
+#versus {
+    border: 2px solid black;
+    width: 80%;
+    align-self: center;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px var(--04);
+    border-radius: 5px;
+}
+
+#text{
+    padding: 10px;
+    background: linear-gradient(var(--04), var(--03));
+    border-radius: 20px;
+}
+
+#count_human, #count_bot{
+    padding: 10px;
+    background: linear-gradient(var(--04), var(--03));
+    border-radius: 20px;
+}
+
+#buttons .col-6 button {
+    align-self: center;
+    margin-bottom: 10px;
+    background: linear-gradient(var(--05), var(--03));
+    border-radius: 20px;
+}
+#buttons .col-6 button:hover {
+    background: linear-gradient(var(--04), var(--05));
+    transition: 0.3s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#textofinal{
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(var(--04), var(--03));
+}
+
+#counter  {
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(var(--04), var(--04));
+    text-align: center;
+    padding: 10px;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(aquamarine, cyan);
+}
+#home:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(violet, purple);
+    transition: 0.2s;
+}

@@ -1,0 +1,197 @@
+@font-face {
+    font-family: robot;
+    src: url(./assets/RobotoSlab-VariableFont_wght.ttf);
+}
+
+body,html{
+    background: black!important;
+    font-family: robot!important;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: white!important;
+}
+.hud{
+    border-radius: 5px;
+    background: green;
+    margin: 0px;
+    padding: 20px;
+}
+.top_bar{
+    border: 2px solid brown ;
+    border-radius: 5px;
+    background: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 250px;
+}
+#text{
+    border: 2px solid rgb(108, 32, 32);
+    background-image: url(./assets/wood_texture.png);
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+#face_hablante{
+    box-shadow: 2px 2px 2px goldenrod;
+    border-radius: 4px;
+}
+#char_name{
+    width: 100px;
+}
+#personaje_dice{
+    background-color: white;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 2px;
+    width: 300px;
+}
+#cont{
+    background-image: url(./sitios/medieval_tavern_entrance.webp);
+    width: 40vh;
+    height: 50vh;
+    position: relative;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content:center;
+    border-radius: 5px;
+    border-radius: 20px;
+}
+
+#body_char{
+    position: absolute!important;
+    background-image: url('./PNG/Dark_Elves/Character1_face4.png');
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 138px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.con_child {
+    align-self: center;
+}
+#body_char{
+    filter:drop-shadow(2px 2px 2px white);
+}
+#but_row{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none!important;
+    color: white!important;
+    border: 2px solid rgb(92, 29, 29);
+    padding: 15px;
+    background: brown;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+a:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    background: linear-gradient(brown, orangered);
+}
+h2,h3{
+    text-align: center;
+}
+#char_name{
+    background: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#coin_sprite{
+    background-image: url('./assets/MonedaD.png');
+    height: 16px;
+    width: 16px;
+    animation: monedas  steps(5) 2s infinite;
+}
+
+@keyframes monedas {
+    from{background-position: 0px;}
+    to{background-position: 80px;}
+}
+
+.hud .row .col-4 div {
+    text-align: center;
+    margin: 5px;
+}
+.hud .row .col-4 {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#lifePoints{
+    background-color: greenyellow;
+    color: black;
+    text-shadow: 2px 2px 2px green;
+}
+
+#bottles {
+    background-color: rgb(107, 28, 28);
+    text-shadow: 2px 2px 2px orange;
+}
+#monedas{
+    background-color: goldenrod;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container2 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#popUp{
+    z-index: 9999;
+    visibility:hidden;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    width: 62%;
+    height: 570px;
+    background: url('./assets/wood_texture.png');
+    margin: 0px;
+}
+
+#popUp .container .row .col-4{
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+#popUp .container .row .col-4 img{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px goldenrod;
+}
+#coinsPopUp{
+    background-image: url('./assets/MonedaD.png');
+    height: 16px;
+    width: 16px;
+    animation: monedas  steps(5) 2s infinite;
+}
+#coinH2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
